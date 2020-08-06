@@ -29,14 +29,14 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Futura PT Light';
+  font-family: 'Futura PT';
   src: url("../fonts/FuturaPT-Light.eot");
   src: local("☺"), url("../fonts/FuturaPT-Light.woff") format("woff"), url("../fonts/FuturaPT-Light.ttf") format("truetype"), url("../fonts/FuturaPT-Light.svg") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Futura PT Medium';
+  font-family: 'Futura PT';
   src: url("../fonts/FuturaPT-Medium.eot");
   src: local("☺"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype"), url("../fonts/FuturaPT-Medium.svg") format("svg");
   font-weight: 500;
@@ -114,7 +114,12 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: 0.3s ease; }
+  .header-button__link:hover {
+    background-color: #8a1f37; }
+  .header-button__link:active {
+    background-color: #761329; }
 
 .ibg {
   background-position: center;
@@ -157,6 +162,38 @@ section.choice {
   line-height: 120%; }
   .choice-desc_l {
     text-align: right; }
+
+#button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 190px;
+  right: 284px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  width: 70px;
+  height: 70px;
+  background-color: #ebe6e1;
+  cursor: pointer; }
+  #button::after {
+    content: "";
+    line-height: 56px;
+    background-image: url(../img/icon/arrow-up.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 26px 20px;
+    width: 56px;
+    height: 72px;
+    display: block; }
+  #button:hover {
+    background-color: #d9cec4; }
+
+#button.show {
+  opacity: 1;
+  visibility: visible; }
 
 section.plan {
   margin-top: -193px; }
@@ -248,7 +285,24 @@ section.plan {
     width: 100%; }
 
 section.stairs {
-  margin-top: 205px; }
+  margin-top: 87px;
+  position: relative; }
+
+.stairs-block {
+  background-image: url(../img/pic/background-author.png);
+  width: 100%;
+  height: 640px;
+  position: absolute;
+  bottom: 103px;
+  z-index: -1; }
+  .stairs-block__sky {
+    background-image: url(../img/pic/sky.png);
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    bottom: 59px; }
+    .stairs-block__sky img {
+      width: 100%; }
 
 .stairs-body {
   display: flex;
@@ -259,6 +313,10 @@ section.stairs {
 .stairs-pic_l {
   margin-left: -60px; }
 
+.stairs-pic_r {
+  margin-top: 118px;
+  margin-right: 40px; }
+
 .stairs-pic img {
   width: 100%; }
 
@@ -268,12 +326,435 @@ section.stairs {
   background-size: cover;
   justify-content: center;
   display: flex;
-  align-items: center;
   width: 743px;
   height: 595px;
   position: absolute;
   left: 202px;
   top: 5px; }
+
+.stairs-content {
+  padding: 127px 0 0 6px; }
+
+.stairs-desc {
+  margin: 46px 43px; }
+  .stairs-desc p {
+    max-width: 400px;
+    margin: 21px 0; }
+
+section.other {
+  margin-top: -36px; }
+
+.other-body {
+  display: flex; }
+
+.other-pic {
+  margin-left: -217px; }
+
+.other-main {
+  padding: 27px 0 0 29px; }
+
+.other-head__subtitle {
+  max-width: 387px;
+  color: #433d3d;
+  font-size: 20px;
+  font-weight: 400; }
+
+.other-head__title {
+  margin: 10px 0 42px; }
+
+.other-head__sign {
+  max-width: 561px;
+  color: #c34a65;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 4px; }
+
+.other-desc {
+  margin: 48px 36px 56px; }
+  .other-desc p {
+    max-width: 340px;
+    margin: 21px 0; }
+    .other-desc p::before {
+      left: -40px; }
+
+.other-button {
+  padding: 15px 49px;
+  margin-left: 6px; }
+
+.program-block {
+  background-image: url(../img/pic/background-program.png); }
+
+.program-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.program-main {
+  margin-right: 126px; }
+
+.program-content {
+  max-width: 520px;
+  padding: 54px 150px 46px 70px;
+  box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+  background-color: #ffffff;
+  border-radius: 13px; }
+
+.program-head__sutitle {
+  color: #433d3d;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-weight: 500;
+  margin: 17px 0 29px; }
+
+.program-desc {
+  padding-left: 24px; }
+
+.recitation-main {
+  margin-top: 57px; }
+
+.recitation-head__title {
+  text-align: center; }
+
+.recitation-desc {
+  display: flex;
+  margin: 43px 0 0 0; }
+  .recitation-desc__item:not(:first-child) {
+    margin-left: 50px; }
+  .recitation-desc__item-title {
+    font-family: "Futura PT";
+    display: block;
+    width: 312px;
+    height: 60px;
+    box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+    line-height: 60px;
+    border-radius: 30px;
+    border: 1px solid #c0ddea;
+    text-align: left;
+    padding-left: 75px;
+    color: #433d3d;
+    background: url(../img/icon/check-rec.png) 14px center no-repeat #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 8px; }
+  .recitation-desc__item-subtitle {
+    position: relative;
+    max-width: 283px;
+    height: 59px;
+    color: #8b8181;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 29px 0 53px 94px;
+    padding-left: 25px; }
+
+section.reviews {
+  text-align: center;
+  margin-top: 53px; }
+
+.reviews-body {
+  margin-bottom: -13px; }
+
+.reviews-content__title {
+  color: #433d3d;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  text-align: left; }
+
+.reviews-content__subtitle {
+  color: #8b8181;
+  font-family: "FuturaPT-Book";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 151%;
+  text-align: left; }
+
+.reviews-slider {
+  max-width: 629px;
+  padding: 50px 57px 30px 50px;
+  box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+  background-color: #ffffff;
+  margin: 0px 16px;
+  border-radius: 10px;
+  min-height: 230px !important;
+  height: 420px; }
+
+.slick-arrow {
+  position: absolute;
+  z-index: 99;
+  top: 226px; }
+
+.slick-prev {
+  left: 29.15%;
+  background-image: url(../img/icon/arrow-slider-left.png);
+  width: 54px;
+  background-repeat: no-repeat;
+  height: 54px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  outline: none; }
+
+.slick-next {
+  right: 29.15%;
+  background-image: url(../img/icon/arrow-slider-right.png);
+  width: 54px;
+  background-repeat: no-repeat;
+  height: 54px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  outline: none; }
+
+.slick-list.draggable {
+  padding-top: 48px !important; }
+
+.slick-center {
+  width: 740px; }
+
+.slick-track {
+  display: flex !important;
+  align-items: center; }
+
+.slick-initialized .slick-slide {
+  outline: none; }
+
+.author-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; }
+
+.author-head {
+  background-image: url(../img/pic/bg-desc.png);
+  width: 605px;
+  height: 627px; }
+  .author-head__subtitle {
+    color: #433d3d;
+    font-size: 20px;
+    font-weight: 400; }
+  .author-head__title {
+    margin: 10px 0; }
+
+.author-main {
+  padding: 129px 0 0 116px; }
+
+.author-content__items {
+  margin: 20px; }
+  .author-content__items p {
+    margin: 17px 0;
+    max-width: 365px; }
+
+.author-content__img {
+  z-index: -1;
+  position: absolute;
+  right: -12px;
+  top: 13px; }
+
+.author-content__pic {
+  width: 641px;
+  height: 547px; }
+
+.buy-body {
+  display: flex;
+  justify-content: center; }
+
+.buy-content {
+  background-image: url(../img/pic/bg-author.png);
+  width: 506px;
+  height: 676px;
+  text-align: center; }
+  .buy-content-form {
+    padding: 108px 0 0 10px; }
+  .buy-content__title {
+    color: #433d3d;
+    font-family: "Futura PT";
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center; }
+  .buy-content__subtitle {
+    color: #8b8181;
+    font-family: "FuturaPT-Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: 249px;
+    text-align: center;
+    margin: 9px auto 40px; }
+  .buy-content__item {
+    margin: 0 auto 36px;
+    max-width: 280px; }
+    .buy-content__item input {
+      width: 215px;
+      height: 48px;
+      border-radius: 25px;
+      border: 1px solid #d9cec4;
+      background-color: #ffffff;
+      color: #8b8181;
+      font-family: "Futura PT";
+      font-size: 18px;
+      font-weight: 300;
+      outline: none;
+      display: block;
+      line-height: 60px;
+      text-align: left;
+      padding-left: 62px;
+      margin-left: 8px;
+      margin: 10px 0;
+      transition: 0.3s ease; }
+      .buy-content__item input:hover {
+        border: 1px solid #bea09f; }
+      .buy-content__item input:focus {
+        border: 1px solid #c0405c; }
+    .buy-content__item-input {
+      position: relative;
+      cursor: pointer; }
+      .buy-content__item-input label {
+        width: 1px;
+        height: 30px;
+        background-color: #bea09f;
+        display: block;
+        position: absolute;
+        left: 52px;
+        top: 11px; }
+    .buy-content__item-name {
+      background: url(../img/icon/user.svg) 8% no-repeat;
+      background-size: 14px;
+      fill: #d9cec4; }
+    .buy-content__item-phone {
+      background: url(../img/icon/phone.svg) 8% no-repeat;
+      background-size: 14px;
+      fill: #d9cec4; }
+    .buy-content__item-email {
+      background: url(../img/icon/mail.svg) 8% no-repeat;
+      background-size: 16px;
+      fill: #d9cec4; }
+
+.buy-button {
+  padding: 15px 77px; }
+
+.buy-agree {
+  max-width: 248px;
+  color: #8b8181;
+  font-family: "FuturaPT-Book";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .buy-agree span {
+    text-decoration: underline; }
+
+.buy-content__item-name:focus {
+  background: url(../img/icon/user-focus.png) 8% no-repeat; }
+
+.buy-content__item-phone:focus {
+  background: url(../img/icon/phone-focus.png) 8% no-repeat; }
+
+.buy-content__item-email:focus {
+  background: url(../img/icon/mail-focus.png) 8% no-repeat; }
+
+.act-block {
+  background-image: url(../img/pic/background-down.png);
+  height: 817px; }
+
+.act-body {
+  padding-top: 96px;
+  text-align: center; }
+
+.act-head__title {
+  text-align: center; }
+
+.act-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+  margin-bottom: 54px; }
+  .act-content__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .act-content__item img {
+      margin-left: -12px; }
+  .act-content__title {
+    max-width: 157px;
+    color: #433d3d;
+    font-family: "Futura PT";
+    font-size: 18px;
+    font-weight: 500; }
+  .act-content__subtitle {
+    max-width: 197px;
+    color: #8b8181;
+    font-family: "FuturaPT-Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 15px;
+    text-align: left; }
+
+.act-button {
+  padding: 15px 101px; }
+
+.list-block {
+  background-image: url(../img/pic/board.png);
+  width: 743px;
+  height: 595px;
+  position: relative;
+  margin: -196px auto 70px; }
+
+.list-body {
+  padding: 67px 0 0 227px; }
+
+.list-content {
+  margin: 27px 0 0 -72px; }
+  .list-content p {
+    margin: 21px 0;
+    max-width: 477px; }
+
+.list-button {
+  position: absolute;
+  width: initial;
+  height: initial;
+  padding: 15px 82px;
+  bottom: 22px;
+  left: 233px; }
+
+section.footer {
+  background-color: #323232; }
+
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0; }
+
+.footer-content p {
+  max-width: 218px;
+  color: #aaaaaa;
+  font-family: "FuturaPT-Book";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%; }
+
+.footer-main {
+  max-width: 411px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+  .footer-main a {
+    color: #666666;
+    font-family: "FuturaPT-Book";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration: none;
+    margin-left: 25px;
+    border-bottom: 1px solid #666666;
+    height: 19px; }
 
 a, p {
   font-family: FuturaPT-Book; }
@@ -308,11 +789,52 @@ a, p {
   content: '';
   background-image: url(../img/icon/check.png);
   background-repeat: no-repeat;
-  width: 17px;
-  height: 17px;
+  width: 32px;
+  height: 32px;
   position: absolute;
-  left: -20px;
-  top: 7px; }
+  left: -50px;
+  top: -5px; }
+
+.desc-lightning {
+  position: relative;
+  color: #433d3d;
+  font-size: 18px;
+  font-family: "Futura PT";
+  font-weight: 500;
+  margin: 20px 0; }
+  .desc-lightning::before {
+    content: '';
+    background-image: url(../img/icon/lightning.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 25px;
+    position: absolute;
+    left: -22px;
+    top: 1px; }
+  .desc-lightning span {
+    color: #8b8181;
+    font-family: "Futura PT";
+    font-weight: 300; }
+
+.title-question::before {
+  content: '';
+  background-image: url(../img/icon/icon-question.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 65px;
+  position: absolute;
+  left: -50px;
+  top: -5px; }
+
+.title-mark::before {
+  content: '';
+  background-image: url(../img/icon/icon-mark.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 65px;
+  position: absolute;
+  left: -58px;
+  top: -10px; }
 
 * {
   margin: 0;
