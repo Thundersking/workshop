@@ -23,7 +23,7 @@
                   с&nbsp;помощью эмоционального интеллекта
                   и&nbsp;жить с&nbsp;партнёром счастливо<br>
                 </p>
-                <div class="header-button"><a class="header-button__link" href="#">Принять участие!</a></div>
+                <div class="header-button"><a class="header-button__link popup__button_open" href="#">Принять участие!</a></div>
               </div>
               <div class="header-content__items">
                 <p class="header-content__date">15 августа</p>
@@ -34,6 +34,31 @@
         </div>
       </div>
     </section>
+    <div class="popup popup_hide">
+      <div class="buy-content popup-main">
+        <div class="buy-content-form"><a class="popup__button popup__button_close" href="#"></a>
+          <div class="buy-content__head">
+            <p class="buy-content__title">Записаться на вебинар </p>
+            <p class="buy-content__subtitle">В течении 5 минут мы вышлем всю информацию на почту</p>
+          </div>
+          <div class="buy-content__item">
+            <div class="buy-content__item-input">
+              <label></label>
+              <input class="buy-content__item-name" type="text" value="Введите Ваше имя" title="Введите Ваше имя" onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;" required>
+            </div>
+            <div class="buy-content__item-input">
+              <label></label>
+              <input class="buy-content__item-phone" type="phone" value="Введите Ваш телефон" title="Введите Ваш телефон" onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;" required>
+            </div>
+            <div class="buy-content__item-input">
+              <label></label>
+              <input class="buy-content__item-email" type="email" value="Введите Вашу почту" title="Введите Вашу почту" onblur="this.value=(this.value=='')?this.title:this.value;" onfocus="this.value=(this.value==this.title)?'':this.value;" required>
+            </div>
+          </div><a class="buy-button header-button__link" href="#">Хочу за 1200 РУБ!</a>
+          <p class="buy-agree">Нажимая на кнопку, я соглашаюсь с&nbsp;условиями <span>политики конфиденциальности</span></p>
+        </div>
+      </div>
+    </div>
     <section class="choice">
       <div class="choice-block">
         <div class="wrapper">
@@ -109,7 +134,7 @@
                   <p class="desc-dots desc-main"><span>Вы пробовали</span> уже привлекать родственников и&nbsp;советоваться с друзьями. Читали статьи в интернете и&nbsp;блогах по психологии</p>
                   <p class="desc-dots desc-main">Но, <span>это не помогает</span>, а только отнимает силы и нервы.</p>
                 </div>
-                <div class="specification-desc__pic"><img src="static/img/pic/couple.png" alt=""></div><a class="specification-button header-button__link" href="#">Не хочу так!!!</a>
+                <div class="specification-desc__pic"><img src="static/img/pic/couple.png" alt=""></div><a class="specification-button header-button__link popup__button_open" href="#">Не хочу так!!!</a>
               </div>
             </div>
             <div class="specification-item">
@@ -409,7 +434,7 @@
               <p class="desc-check desc-main">Партнер настаивает на разводе, не готов дать отношениям шанс</p>
               <p class="desc-check desc-main">У кого-то из вас есть отношения на стороне, и&nbsp;прекращать&nbsp;их&nbsp;не&nbsp;хочется</p>
               <p class="desc-check desc-main">Вы состоите в отношениях с абьюзером (подвергаетесь&nbsp;насилию, унижениям, подавлению)</p>
-            </div><a class="list-button header-button__link" href="#">Это не про меня!</a>
+            </div><a class="list-button header-button__link" href="">Это не про меня!</a>
           </div>
         </div>
       </div>
@@ -427,6 +452,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="static/js/slick.min.js"></script>
     <script src="static/js/libs.min.js"></script>
     <script src="static/js/main.js"></script>
