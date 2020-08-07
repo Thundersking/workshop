@@ -9,16 +9,14 @@ $('.carousel-reviews').slick({
 	  {
 		breakpoint: 768,
 		settings: {
-		  arrows: false,
 		  centerMode: true,
 		  centerPadding: '40px',
-		  slidesToShow: 3
+		  slidesToShow: 1
 		}
 	  },
 	  {
 		breakpoint: 480,
 		settings: {
-		  arrows: false,
 		  centerMode: true,
 		  centerPadding: '40px',
 		  slidesToShow: 1
@@ -26,6 +24,7 @@ $('.carousel-reviews').slick({
 	  }
 	]
   });
+
 
 //button up
   var btn = $('#button');
@@ -61,3 +60,13 @@ var countDownFunction = setInterval(function () {
 	document.getElementById('timer').innerHTML = 
 		hours + 'ч ' + minutes + 'м ' + seconds + 'с ';
 }, 1000);
+
+
+//читать далее
+$(function(){
+	$(".reviews-content__subtitle").elimore({
+	maxLength: 400,
+	moreText: "Читать полностью",
+	lessText: "Свернуть отзыв"
+	});
+});

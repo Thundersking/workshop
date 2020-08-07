@@ -49,6 +49,195 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Bold.eot");
+  src: local("☺"), url("../fonts/Oswald-Bold.woff") format("woff"), url("../fonts/Oswald-Bold.ttf") format("truetype"), url("../fonts/Oswald-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-ExtraLight.eot");
+  src: local("☺"), url("../fonts/Oswald-ExtraLight.woff") format("woff"), url("../fonts/Oswald-ExtraLight.ttf") format("truetype"), url("../fonts/Oswald-ExtraLight.svg") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Light.eot");
+  src: local("☺"), url("../fonts/Oswald-Light.woff") format("woff"), url("../fonts/Oswald-Light.ttf") format("truetype"), url("../fonts/Oswald-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-Medium.eot");
+  src: local("☺"), url("../fonts/Oswald-Medium.woff") format("woff"), url("../fonts/Oswald-Medium.ttf") format("truetype"), url("../fonts/Oswald-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("../fonts/Oswald-SemiBold.eot");
+  src: local("☺"), url("../fonts/Oswald-SemiBold.woff") format("woff"), url("../fonts/Oswald-SemiBold.ttf") format("truetype"), url("../fonts/Oswald-SemiBold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Heavy.eot");
+  src: local("Futura PT Heavy"), local("FuturaPT-Heavy"), url("../fonts/FuturaPT-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Heavy.woff") format("woff"), url("../fonts/FuturaPT-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Medium.eot");
+  src: local("Futura PT Medium"), local("FuturaPT-Medium"), url("../fonts/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Medium.woff") format("woff"), url("../fonts/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-MediumObl.eot");
+  src: local("Futura PT Medium Oblique"), local("FuturaPT-MediumObl"), url("../fonts/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-MediumObl.woff") format("woff"), url("../fonts/FuturaPT-MediumObl.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../fonts/FuturaPTCond-Medium.eot");
+  src: local("Futura PT Cond Medium"), local("FuturaPTCond-Medium"), url("../fonts/FuturaPTCond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-Medium.woff") format("woff"), url("../fonts/FuturaPTCond-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-LightObl.eot");
+  src: local("Futura PT Light Oblique"), local("FuturaPT-LightObl"), url("../fonts/FuturaPT-LightObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-LightObl.woff") format("woff"), url("../fonts/FuturaPT-LightObl.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT-Book';
+  src: url("../fonts/FuturaPT-Book.eot");
+  src: local("Futura PT-Book"), local("FuturaPT-Book"), url("../fonts/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Book.woff") format("woff"), url("../fonts/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../fonts/FuturaPTCond-Bold.eot");
+  src: local("Futura PT Cond Bold"), local("FuturaPTCond-Bold"), url("../fonts/FuturaPTCond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-Bold.woff") format("woff"), url("../fonts/FuturaPTCond-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT-Book';
+  src: url("../fonts/FuturaPT-BookObl.eot");
+  src: local("Futura PT-Book Oblique"), local("FuturaPT-BookObl"), url("../fonts/FuturaPT-BookObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-BookObl.woff") format("woff"), url("../fonts/FuturaPT-BookObl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("../fonts/FuturaPTCond-ExtraBoldObl.eot");
+  src: local("Futura PT Cond Extra Bold Oblique"), local("FuturaPTCond-ExtraBoldObl"), url("../fonts/FuturaPTCond-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-ExtraBoldObl.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Light.eot");
+  src: local("Futura PT Light"), local("FuturaPT-Light"), url("../fonts/FuturaPT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Light.woff") format("woff"), url("../fonts/FuturaPT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-BoldObl.eot");
+  src: local("Futura PT Bold Oblique"), local("FuturaPT-BoldObl"), url("../fonts/FuturaPT-BoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-BoldObl.woff") format("woff"), url("../fonts/FuturaPT-BoldObl.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("../fonts/FuturaPT-DemiObl.eot");
+  src: local("Futura PT Demi Oblique"), local("FuturaPT-DemiObl"), url("../fonts/FuturaPT-DemiObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-DemiObl.woff") format("woff"), url("../fonts/FuturaPT-DemiObl.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("../fonts/FuturaPTCond-ExtraBold.eot");
+  src: local("Futura PT Cond Extra Bold"), local("FuturaPTCond-ExtraBold"), url("../fonts/FuturaPTCond-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-ExtraBold.woff") format("woff"), url("../fonts/FuturaPTCond-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("../fonts/FuturaPT-Demi.eot");
+  src: local("Futura PT Demi"), local("FuturaPT-Demi"), url("../fonts/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Demi.woff") format("woff"), url("../fonts/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-HeavyObl.eot");
+  src: local("Futura PT Heavy Oblique"), local("FuturaPT-HeavyObl"), url("../fonts/FuturaPT-HeavyObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-HeavyObl.woff") format("woff"), url("../fonts/FuturaPT-HeavyObl.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("../fonts/FuturaPT-ExtraBoldObl.eot");
+  src: local("Futura PT Extra Bold Oblique"), local("FuturaPT-ExtraBoldObl"), url("../fonts/FuturaPT-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../fonts/FuturaPT-ExtraBoldObl.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("../fonts/FuturaPTCond-Book.eot");
+  src: local("Futura PT Cond Book"), local("FuturaPTCond-Book"), url("../fonts/FuturaPTCond-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-Book.woff") format("woff"), url("../fonts/FuturaPTCond-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../fonts/FuturaPT-Bold.eot");
+  src: local("Futura PT Bold"), local("FuturaPT-Bold"), url("../fonts/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-Bold.woff") format("woff"), url("../fonts/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("../fonts/FuturaPT-ExtraBold.eot");
+  src: local("Futura PT Extra Bold"), local("FuturaPT-ExtraBold"), url("../fonts/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPT-ExtraBold.woff") format("woff"), url("../fonts/FuturaPT-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../fonts/FuturaPTCond-BoldObl.eot");
+  src: local("Futura PT Cond Bold Oblique"), local("FuturaPTCond-BoldObl"), url("../fonts/FuturaPTCond-BoldObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-BoldObl.woff") format("woff"), url("../fonts/FuturaPTCond-BoldObl.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../fonts/FuturaPTCond-MediumObl.eot");
+  src: local("Futura PT Cond Medium Oblique"), local("FuturaPTCond-MediumObl"), url("../fonts/FuturaPTCond-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-MediumObl.woff") format("woff"), url("../fonts/FuturaPTCond-MediumObl.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("../fonts/FuturaPTCond-BookObl.eot");
+  src: local("Futura PT Cond Book Oblique"), local("FuturaPTCond-BookObl"), url("../fonts/FuturaPTCond-BookObl.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaPTCond-BookObl.woff") format("woff"), url("../fonts/FuturaPTCond-BookObl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
 .header-content {
   margin-top: 131px;
   display: flex;
@@ -148,9 +337,12 @@ section.choice {
   .choice-content__img {
     margin: 0 40px; }
   .choice-content__items {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    max-width: 230px; }
   .choice-content__pic {
     background-image: url(../img/pic/scales.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 472px;
     height: 354px; }
 
@@ -232,6 +424,7 @@ section.plan {
   .plan-content__img {
     background-image: url(../img/pic/woman_01.png);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 239px;
     height: 348px;
     margin: 30px 0 0 -18px; }
@@ -267,8 +460,12 @@ section.plan {
 
 .specification-desc {
   margin: 35px 0 70px 20px; }
+  .specification-desc__pic {
+    display: none; }
+    .specification-desc__pic img {
+      width: 100%; }
   .specification-desc p {
-    max-width: 404px;
+    max-width: 406px;
     margin: 28px 0; }
 
 .specification-button {
@@ -349,6 +546,8 @@ section.other {
 
 .other-pic {
   margin-left: -217px; }
+  .other-pic img {
+    width: 100%; }
 
 .other-main {
   padding: 27px 0 0 29px; }
@@ -482,13 +681,16 @@ section.reviews {
   min-height: 230px !important;
   height: 420px; }
 
+.slick-center {
+  position: relative; }
+
 .slick-arrow {
   position: absolute;
   z-index: 99;
-  top: 226px; }
+  top: 50%; }
 
 .slick-prev {
-  left: 29.15%;
+  left: 543px;
   background-image: url(../img/icon/arrow-slider-left.png);
   width: 54px;
   background-repeat: no-repeat;
@@ -500,7 +702,7 @@ section.reviews {
   outline: none; }
 
 .slick-next {
-  right: 29.15%;
+  right: 547px;
   background-image: url(../img/icon/arrow-slider-right.png);
   width: 54px;
   background-repeat: no-repeat;
@@ -532,17 +734,19 @@ section.reviews {
 
 .author-head {
   background-image: url(../img/pic/bg-desc.png);
+  background-size: contain;
   width: 605px;
   height: 627px; }
   .author-head__subtitle {
     color: #433d3d;
     font-size: 20px;
-    font-weight: 400; }
+    font-weight: 400;
+    font-style: italic; }
   .author-head__title {
     margin: 10px 0; }
 
 .author-main {
-  padding: 129px 0 0 116px; }
+  padding: 110px 0 0 116px; }
 
 .author-content__items {
   margin: 20px; }
@@ -559,16 +763,58 @@ section.reviews {
 .author-content__pic {
   width: 641px;
   height: 547px; }
+  .author-content__pic img {
+    width: 100%; }
 
 .buy-body {
   display: flex;
-  justify-content: center; }
+  justify-content: space-between;
+  position: relative; }
+
+.buy-head__img {
+  position: absolute;
+  right: 536px;
+  bottom: 77px;
+  z-index: -1; }
+  .buy-head__img img {
+    width: 100%; }
+
+.buy-price {
+  width: 210px;
+  height: 80px;
+  box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+  border-radius: 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -23px 0 0 21px; }
+  .buy-price__item {
+    margin-left: -10px; }
+  .buy-price_s {
+    width: 43px;
+    height: 13px;
+    color: #8b8181;
+    font-family: "Futura PT";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 14.69px;
+    text-decoration: line-through;
+    margin-bottom: 10px; }
+  .buy-price_x {
+    color: #c0405c;
+    font-family: "Futura PT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 21px; }
 
 .buy-content {
   background-image: url(../img/pic/bg-author.png);
+  background-size: contain;
   width: 506px;
   height: 676px;
-  text-align: center; }
+  text-align: center;
+  margin-right: 70px; }
   .buy-content-form {
     padding: 108px 0 0 10px; }
   .buy-content__title {
@@ -609,8 +855,6 @@ section.reviews {
       transition: 0.3s ease; }
       .buy-content__item input:hover {
         border: 1px solid #bea09f; }
-      .buy-content__item input:focus {
-        border: 1px solid #c0405c; }
     .buy-content__item-input {
       position: relative;
       cursor: pointer; }
@@ -623,17 +867,20 @@ section.reviews {
         left: 52px;
         top: 11px; }
     .buy-content__item-name {
-      background: url(../img/icon/user.svg) 8% no-repeat;
-      background-size: 14px;
-      fill: #d9cec4; }
+      background: url(../img/icon/user.png) 8% no-repeat;
+      background-size: 14px; }
+      .buy-content__item-name:focus {
+        background: url(../img/icon/user-focus.png) 8% no-repeat; }
     .buy-content__item-phone {
-      background: url(../img/icon/phone.svg) 8% no-repeat;
-      background-size: 14px;
-      fill: #d9cec4; }
+      background: url(../img/icon/phone.png) 8% no-repeat;
+      background-size: 14px; }
+      .buy-content__item-phone:focus {
+        background: url(../img/icon/phone-focus.png) 8% no-repeat; }
     .buy-content__item-email {
-      background: url(../img/icon/mail.svg) 8% no-repeat;
-      background-size: 16px;
-      fill: #d9cec4; }
+      background: url(../img/icon/mail.png) 8% no-repeat;
+      background-size: 16px; }
+      .buy-content__item-email:focus {
+        background: url(../img/icon/mail-focus.png) 8% no-repeat; }
 
 .buy-button {
   padding: 15px 77px; }
@@ -658,6 +905,47 @@ section.reviews {
 
 .buy-content__item-email:focus {
   background: url(../img/icon/mail-focus.png) 8% no-repeat; }
+
+.coutdown {
+  width: 473px;
+  height: 167px;
+  box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px; }
+
+.timer {
+  display: flex; }
+  .timer__block {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: #f2efee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 23px;
+    position: relative; }
+    .timer__block:not(:last-child)::after {
+      content: ':';
+      color: #433d3d;
+      font-family: Oswald;
+      font-size: 62px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 3.55px;
+      position: absolute;
+      right: -30px;
+      top: 3px; }
+    .timer__block span {
+      color: #433d3d;
+      font-family: Oswald;
+      font-size: 62px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 3.55px; }
 
 .act-block {
   background-image: url(../img/pic/background-down.png);
@@ -773,6 +1061,7 @@ a, p {
   line-height: 120%;
   position: relative; }
   .desc-main span {
+    font-family: "Futura PT";
     font-weight: 500; }
 
 .desc-dots::before {
@@ -920,3 +1209,590 @@ a, p {
   height: 400px;
   padding: 50px;
   margin: 0 20px; }
+
+@media (max-width: 1440px) {
+  .slick-prev {
+    left: 325px; }
+  .slick-next {
+    right: 325px; } }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 750px; }
+  p {
+    font-size: 16px; }
+  .header-main {
+    font-size: 28px; }
+  .header-block {
+    height: 540px; }
+  .header-title {
+    font-size: 38px; }
+  .header-content {
+    margin-top: 74px; }
+    .header-content__time {
+      font-size: 16px; }
+    .header-content__date {
+      font-size: 20px;
+      margin-bottom: 4px; }
+    .header-content__items:last-child {
+      right: 23%; }
+      .header-content__items:last-child::before {
+        width: 2px;
+        height: 42px;
+        left: -8px;
+        top: 2px; }
+  .header-subtitle {
+    max-width: 347px;
+    font-size: 16px; }
+  .header-button__link {
+    padding: 13px 40px; }
+  .choice-content__pic {
+    width: 368px; }
+  .choice-content__img {
+    margin: 0 20px; }
+  .choice-head__title {
+    text-align: center;
+    max-width: initial; }
+  .choice-desc {
+    margin: 16px 0;
+    font-size: 16px; }
+  #button {
+    bottom: 150px;
+    right: 150px; }
+  .plan-body {
+    height: 431px; }
+  .plan-desc:not(:first-child) {
+    margin-top: 45px; }
+  .plan-desc__word {
+    margin: 14px 0; }
+  .plan-desc p {
+    font-size: 16px; }
+  .plan-content {
+    margin: 0px 0 0 34px; }
+  .specification-pic {
+    max-width: 327px;
+    margin-top: 97px; }
+  .specification-main {
+    padding: 39px 0 0 0px; }
+  .specification-desc {
+    margin: 30px 0 60px 20px; }
+    .specification-desc p {
+      margin: 16px 0; }
+  .desc-main {
+    font-size: 16px; }
+  .stairs-main {
+    width: 584px;
+    height: 450px;
+    background-size: contain;
+    margin-left: -82px; }
+  .stairs-content {
+    padding: 70px 0 0 47px; }
+  .stairs-pic_l {
+    margin-left: -102px;
+    max-width: 280px; }
+  .stairs-pic_r {
+    margin-right: -10px;
+    margin-top: 0; }
+  .other-head__subtitle {
+    font-size: 16px; }
+  .other-head__sign {
+    font-size: 16px; }
+  .other-head__title {
+    margin: 8px 0 22px; }
+  .other-desc {
+    margin: 32px 36px 52px; }
+  .other-pic {
+    max-width: 500px; }
+  .program-head__sutitle {
+    font-size: 16px; }
+  .desc-lightning {
+    font-size: 16px;
+    margin: 15px 0; }
+  .recitation-desc__item-title {
+    width: 233px;
+    font-size: 16px; }
+  .recitation-desc__item-subtitle {
+    font-size: 16px;
+    margin: 29px 0 53px 78px; }
+  .slick-prev {
+    left: 114px; }
+  .slick-next {
+    right: 114px; }
+  .author-main {
+    padding: 129px 0 0 123px; }
+  .author-head {
+    height: 567px; }
+  .author-content__pic {
+    width: 410px; }
+  .author-content__img {
+    right: -150px;
+    top: 146px; }
+  .buy-content {
+    height: 640px; }
+    .buy-content-form {
+      padding: 108px 0 0 0px; }
+    .buy-content__title {
+      font-size: 20px; }
+    .buy-content__subtitle {
+      font-size: 16px; }
+    .buy-content__item {
+      margin: 0 auto 52px; }
+      .buy-content__item input {
+        font-size: 16px;
+        width: 222px; }
+  .buy-head__img {
+    width: 263px; }
+  .act-body {
+    margin: 0 -70px; }
+  .list-block {
+    width: 695px; } }
+
+@media (max-width: 768px) {
+  section.list {
+    margin-top: 184px; }
+  .header-button__link {
+    padding: 22px 102px;
+    border-radius: 51px; }
+  .header-content__items:last-child {
+    right: 25%; }
+  .author-body {
+    flex-direction: column; }
+  .author-content__img {
+    position: initial;
+    margin-top: -95px;
+    z-index: 1; }
+  .list-button {
+    left: 205px; }
+  .buy-button {
+    padding: 17px 78px; }
+  .buy-agree {
+    margin-top: 42px; }
+  .buy-content {
+    background-size: cover;
+    margin-right: 0; }
+  .buy-body {
+    flex-direction: column;
+    align-items: center; }
+  .act-body {
+    margin: initial;
+    padding-top: 40px; }
+  .act-content {
+    margin-bottom: 15px;
+    flex-flow: row wrap; }
+    .act-content__item {
+      margin: 21px;
+      flex-basis: 203px;
+      box-sizing: border-box; }
+  .act-block {
+    background-image: url(../img/pic/background-down-mob.png);
+    height: 1090px; }
+  .slick-prev {
+    left: 0; }
+  .slick-next {
+    right: 0; }
+  .slick-center {
+    max-width: 570px; }
+  .program-main {
+    margin: 77px 0 26px; }
+  .plan-body {
+    bottom: 145px;
+    left: 49px; }
+  .plan-content {
+    margin: 0px 0 0 20px; }
+    .plan-content__img {
+      margin: 2px 0 0 -6px; }
+    .plan-content__items {
+      padding-left: 0; }
+  .timer__block {
+    margin: 0 13px; }
+    .timer__block span {
+      font-size: 40px; }
+    .timer__block:not(:last-child)::after {
+      right: -20px;
+      top: 15px;
+      font-size: 40px; }
+  .coutdown {
+    width: 382px; } }
+
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 290px; }
+  .header-block {
+    background: url(../img/pic/background-main-mob.png) no-repeat #f2efee;
+    height: 719px;
+    background-size: cover; }
+  .header-title {
+    font-size: 25px; }
+  .header-subtitle {
+    font-size: 14px; }
+  .header-button__link {
+    padding: 10px 23px; }
+  .header-content__items:last-child {
+    right: 223px;
+    top: 355px;
+    margin-left: -65px; }
+  .header-main {
+    font-size: 20px; }
+  .choice-content {
+    flex-direction: column; }
+    .choice-content__items {
+      margin-bottom: initial;
+      max-width: 223px; }
+    .choice-content__pic {
+      width: 213px; }
+    .choice-content__img {
+      order: 1; }
+  .choice-desc {
+    text-align: left; }
+  section.plan {
+    margin-top: 0; }
+  .plan-block {
+    height: 222px; }
+  .plan-body {
+    height: 350px;
+    width: 290px;
+    bottom: 137px;
+    left: 92px; }
+  .plan-desc p {
+    font-size: 14px; }
+  .plan-desc:not(:first-child) {
+    margin-top: 0; }
+  .plan-main {
+    padding: 24px 0px 20px 21px; }
+  .plan-content__img {
+    margin: 150px 0 0 -6px; }
+  .plan-block {
+    margin-top: 430px; }
+  .specification-item {
+    position: initial; }
+  .specification-button {
+    padding: 18px 98px; }
+  .specification-desc {
+    margin: 30px 0 10px 20px; }
+    .specification-desc__pic {
+      display: block;
+      margin-bottom: 30px; }
+  .specification-pic {
+    display: none; }
+  .stairs-main {
+    position: initial;
+    margin: 0px -113px;
+    width: 525px;
+    height: 471px; }
+  .stairs-pic {
+    display: none; }
+  .stairs-block {
+    display: none; }
+    .stairs-block__sky {
+      display: none; }
+  .stairs-content {
+    padding: 80px 0 0 59px; }
+  .stairs-desc {
+    margin: 34px 43px; }
+  .other-body {
+    display: flex;
+    flex-direction: column-reverse; }
+  .other-head__subtitle {
+    font-size: 14px; }
+  .other-head__sign {
+    font-size: 14px; }
+  .other-main {
+    padding: 27px 0 0 0px; }
+  .other-button {
+    padding: 14px 78px; }
+  .other-pic {
+    max-width: 400px;
+    margin: 43px auto 0; }
+  .act-block {
+    height: 1488px; }
+  .act-button {
+    padding: 17px 85px; }
+  .program-content {
+    padding: 38px 23px 46px 22px; }
+  .recitation-desc {
+    flex-direction: column; }
+    .recitation-desc__item:not(:first-child) {
+      margin-left: 0; }
+  .recitation-main {
+    margin-top: 120px; }
+  .reviews-slider {
+    max-width: 320px; }
+  .list-block {
+    margin: 93px -77px 70px;
+    width: 444px;
+    height: 572px; }
+  .list-body {
+    padding: 67px 0 0 142px; }
+  .list-content p {
+    max-width: 335px; }
+  .list-button {
+    left: 83px;
+    padding: 17px 85px; }
+  .desc-main {
+    font-size: 14px; }
+    .desc-main::before {
+      top: -7px; }
+  #button {
+    bottom: 40px;
+    right: 80px; }
+  .act-content__subtitle {
+    text-align: center;
+    margin: 10px auto 0; }
+  .act-content__title {
+    margin: 0 auto; }
+  .act-content__item img {
+    max-width: 140px;
+    margin: 0 auto; } }
+
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 290px; }
+  .header-logo {
+    width: 76px; }
+    .header-logo img {
+      width: 100%; }
+  .header-content {
+    margin-top: 13px; }
+    .header-content__items:last-child {
+      right: 183px;
+      top: 267px; }
+      .header-content__items:last-child::before {
+        top: 0; }
+    .header-content__date {
+      font-size: 18px; }
+    .header-content__time {
+      font-size: 14px; }
+  .header-subtitle {
+    line-height: 131%;
+    margin: 10px 0 30px; }
+  .header-button__link {
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 400; }
+  .header-block {
+    height: 480px; }
+  section.choice {
+    margin-top: 30px; }
+  .choice-desc {
+    font-size: 14px;
+    text-align: center; }
+  .choice-content {
+    margin-top: 20px; }
+    .choice-content__pic {
+      width: 127px; }
+    .choice-content__items {
+      max-width: 246px;
+      max-width: 194px; }
+      .choice-content__items:last-child {
+        margin-top: -14px; }
+  .plan-block {
+    margin-top: 307px; }
+  .plan-body {
+    left: 16px; }
+  .specification-main {
+    padding: 11px 0 0 0px; }
+  .specification-desc {
+    margin: 17px 0 10px 20px; }
+    .specification-desc__pic {
+      max-width: 183px;
+      margin: 0 auto; }
+    .specification-desc p {
+      max-width: 254px;
+      margin: 10px 0; }
+  .specification-button {
+    padding: 11px 102px; }
+  .desc-main::before {
+    top: 4px; }
+  section.stairs {
+    margin-top: 28px; }
+  .stairs-main {
+    margin: 0px -15px;
+    background-image: url(../img/pic/board-mob.png);
+    width: 320px; }
+  .stairs-content {
+    padding: 42px 0 0 4px; }
+  .stairs-desc {
+    margin: 13px 28px; }
+    .stairs-desc p {
+      max-width: 222px; }
+  section.other {
+    margin-top: -190px; }
+  .other-desc {
+    margin: 18px 32px 32px; }
+    .other-desc p {
+      margin: 17px 0; }
+  .other-button {
+    padding: 10px 87px; }
+  .program-main {
+    margin: -46px 0 26px; }
+  .program-content {
+    padding: 20px 23px 46px 22px; }
+  .program-head__sutitle {
+    font-size: 14px;
+    margin: 10px 0 22px; }
+  .program-block {
+    background-image: none; }
+  .recitation-main {
+    margin-top: 0;
+    background-image: url(../img/pic/background-program-mob.png);
+    background-repeat: no-repeat;
+    margin: 0px -15px; }
+  .recitation-content {
+    padding: 33px 0 0 0; }
+  .recitation-head__title {
+    text-align: left;
+    max-width: 290px;
+    margin: 0 auto;
+    line-height: 147%; }
+  .recitation-desc {
+    margin: 7px 0 0 0; }
+    .recitation-desc__item-title {
+      width: 210px;
+      padding-left: 60px; }
+    .recitation-desc__item-subtitle {
+      font-size: 14px;
+      margin: 17px 27px 32px 61px; }
+  section.reviews {
+    margin-top: 13px; }
+  .reviews-slider {
+    max-width: 240px;
+    max-height: 835px; }
+  .slick-arrow {
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px; }
+  .author-head {
+    width: 320px;
+    background-image: url(../img/pic/bg-desc-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .author-head__subtitle {
+      font-size: 14px; }
+  .author-main {
+    padding: 99px 0 0 10px; }
+  .author-content__items p {
+    max-width: 220px; }
+  .author-content__pic {
+    width: 290px;
+    height: 274px; }
+  .author-content__img {
+    margin-top: -114px; }
+  .buy-head__img {
+    width: 188px;
+    right: -3px;
+    top: 150px;
+    bottom: initial; }
+  .buy-content {
+    background-image: url(../img/pic/bg-author-mob.png);
+    width: 320px; }
+    .buy-content__title {
+      font-size: 25px; }
+    .buy-content__item {
+      margin: 0px auto 40px; }
+  .buy-button {
+    padding: 16px 84px; }
+  .buy-agree {
+    margin-top: 29px; }
+  .buy-price {
+    width: 133px;
+    height: 51px;
+    margin: -6px 0 0 0px; }
+    .buy-price_x {
+      font-size: 18px; }
+    .buy-price_s {
+      font-size: 12px;
+      margin-bottom: 1px; }
+  section.act {
+    margin-top: -15px; }
+  .act-block {
+    height: 1090px; }
+  .act-body {
+    padding-top: 28px; }
+  .act-content {
+    margin-top: 20px;
+    margin-bottom: 27px; }
+    .act-content__item {
+      margin: 0; }
+    .act-content__subtitle {
+      max-width: 290px; }
+    .act-content__item {
+      flex-basis: 290px; }
+      .act-content__item img {
+        max-width: 105px; }
+  .act-button {
+    padding: 16px 111px; }
+  section.list {
+    margin-top: 0; }
+  .list-block {
+    margin: 0px -15px 70px;
+    width: 320px; }
+  .list-body {
+    padding: 28px 0 0 129px; }
+  .list-head__title {
+    max-width: 170px;
+    margin: 0 auto; }
+  .list-body {
+    padding: 28px 0 0 0px; }
+  .list-content {
+    margin: 27px 0 0 45px; }
+    .list-content p {
+      max-width: 290px; }
+  .list-button {
+    padding: 16px 100px;
+    left: 10px; }
+  .list-block {
+    height: 548px;
+    margin: 0px -15px 9px; }
+  .desc-check::before {
+    top: -9px;
+    left: -35px; }
+  .footer-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0; }
+  .footer-main {
+    justify-content: center; }
+    .footer-main a {
+      margin-left: 0;
+      margin: 5px 0; }
+  .footer-content {
+    margin-bottom: 20px; }
+  #button {
+    right: 35px;
+    bottom: 35px; }
+  a.elimore_show {
+    display: block;
+    width: 103px;
+    height: 14px;
+    color: #c0405c;
+    font-family: "FuturaPT-Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: underline; }
+  a.elimore_hide {
+    display: block;
+    width: 103px;
+    height: 14px;
+    color: #c0405c;
+    font-family: "FuturaPT-Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: underline; }
+  .coutdown {
+    margin-top: 22px;
+    width: 292px;
+    height: 103px;
+    box-shadow: -5px 1px 62px 3px rgba(209, 195, 190, 0.25);
+    background-color: #ffffff; }
+  .timer__block {
+    width: 53px;
+    height: 53px; }
+    .timer__block span {
+      font-size: 38px; }
+    .timer__block:not(:last-child)::after {
+      right: -19px;
+      top: 0px; } }
