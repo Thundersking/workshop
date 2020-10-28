@@ -9,16 +9,14 @@ $('.carousel-reviews').slick({
 	  {
 		breakpoint: 768,
 		settings: {
-		  arrows: false,
 		  centerMode: true,
 		  centerPadding: '40px',
-		  slidesToShow: 3
+		  slidesToShow: 1
 		}
 	  },
 	  {
 		breakpoint: 480,
 		settings: {
-		  arrows: false,
 		  centerMode: true,
 		  centerPadding: '40px',
 		  slidesToShow: 1
@@ -26,6 +24,7 @@ $('.carousel-reviews').slick({
 	  }
 	]
   });
+
 
 //button up
   var btn = $('#button');
@@ -46,18 +45,109 @@ $('.carousel-reviews').slick({
   
 
 //timer
-var countDownDate = new Date('00:00:00').getTime();
+const deadline = '2020-05-11';
 
-var countDownFunction = setInterval(function () {
+    function getTimeRemaining(endtime) {
+        const t = Date.parse(endtime) - Date.parse(new Date()),
+            seconds = Math.floor( (t/1000) % 60 ),
+            minutes = Math.floor( (t/1000/60) % 60 ),
+            hours = Math.floor( (t/(1000*60*60) % 24) );
 
-	var now = new Date().getTime();
+        return {
+            'total': t,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds': seconds
+        };
+    }
 
-	var distance = countDownDate - now;
+    function getZero(num){
+        if (num >= 0 && num < 10) { 
+            return '0' + num;
+        } else {
+            return num;
+        }
+    }
 
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    function setClock(selector, endtime) {
 
-	document.getElementById('timer').innerHTML = 
-		hours + 'ч ' + minutes + 'м ' + seconds + 'с ';
-}, 1000);
+        const timer = document.querySelector(selector),
+            hours = timer.querySelector('#hours'),
+            minutes = timer.querySelector('#minutes'),
+            seconds = timer.querySelector('#seconds'),
+            timeInterval = setInterval(updateClock, 1000);
+
+        updateClock();
+
+        function updateClock() {
+            const t = getTimeRemaining(endtime);
+
+            hours.innerHTML = getZero(t.hours);
+            minutes.innerHTML = getZero(t.minutes);
+            seconds.innerHTML = getZero(t.seconds);
+
+            if (t.total <= 0) {
+                clearInterval(timeInterval);
+            }
+        }
+    }
+
+    setClock('.timer', deadline);
+
+
+//читать далее
+$(function(){
+	$(".reviews-content__subtitle").elimore({
+	maxLength: 1600,
+	responsive: [
+		{
+		  breakpoint: 768,
+		  settings: {
+			maxLength: 600,
+			moreText: "Читать полностью",
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			maxLength: 500,
+			moreText: "Читать полностью",
+		  }
+		}
+	  ]
+	});
+});
+
+
+//pop-up
+var Popup = {
+    init: function() {
+        $('.popup__button_close').on('click', function (e) {
+            e.preventDefault();
+            Popup.close();
+        });
+        $('.popup__button_open').on('click', Popup.open);
+    },
+    open: function(){
+
+        $('.popup').removeClass('popup_hide');
+        $('body').addClass('body_hidden');
+
+        setTimeout(function(){
+            $('.popup__body').addClass('popup__body_visible');
+        }, 100);
+
+    },
+    close: function(){
+
+        $('.popup__body').removeClass('popup__body_visible');
+
+        setTimeout(function(){
+            $('.popup').addClass('popup_hide');
+            $('body').removeClass('body_hidden');
+        }, 150);
+    }
+};
+
+// call
+Popup.init();
